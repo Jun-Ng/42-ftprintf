@@ -6,7 +6,7 @@
 /*   By: junng <junng@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 19:32:42 by junng             #+#    #+#             */
-/*   Updated: 2023/05/06 01:09:28 by junng            ###   ########.fr       */
+/*   Updated: 2023/05/06 01:36:13 by junng            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,6 +89,6 @@ int	main(void)
 	// (void)input, (void)s, (void)c, (void)d;
 	// ft_printf("|%%|%c|%s|", 'g', 'c');
 	printf(" %c %p|\n", 's', &x);
-	ft_printf("%c %p|\n", 's', &x);
+	ft_printf("%c %p|\n", 's', -100);
 	return (0);
 }
